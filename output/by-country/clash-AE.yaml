@@ -6,45 +6,31 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   type: vless
-  server: 185.125.103.62
-  port: 8082
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sync
+    path: /
     headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   type: vless
-  server: 64.225.110.247
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 188.72.103.4
+  port: 443
+  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: apicdn.4subnodes.com
   network: ws
   ws-opts:
-    path: /acg/buy/ajax
+    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
     headers:
-      Host: cdn8848.776676.xyz
+      Host: apicdn.4subnodes.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,7 +38,6 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -60,6 +45,5 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
 rules:
 - MATCH,PROXIES
