@@ -6,7 +6,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
@@ -15,15 +15,16 @@
         "🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
@@ -32,8 +33,9 @@
         "🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
