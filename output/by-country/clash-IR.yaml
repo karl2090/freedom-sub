@@ -6,27 +6,37 @@ log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: irnamh.g44mozgh.ir
-  port: 2035
-  uuid: 65c91ab7-a503-4b73-9f8e-e1c0b6377dc2
+  server: a652768e4c2240fc.tunvi.w-ert.org
+  port: 448
+  uuid: b2dacbda-8221-4548-a104-aa8aa56ab282
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: tjlpmcWwDiXnVu2Wc8v8wxwmiYWtnoUNeHmXPtL5vyk
-  servername: play.google.com
+    public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
+  servername: www.aparat.com
   client-fingerprint: chrome
+- name: 🇮🇷 IR 02 - xiaohe
+  type: vless
+  server: arsnew.netbazshop.ir
+  port: 32634
+  uuid: feef6320-c5b5-44f6-a44b-5acbc4524457
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
 rules:
 - MATCH,PROXIES
